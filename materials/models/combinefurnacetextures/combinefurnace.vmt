@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+$basetexture "models/combinefurnacetextures/combinefurnace_diffoff"
+$selfillum 1
+$selfillummask "models/combinefurnacetextures/combinefurnace_emisoff"
+$surfaceprop metal
+}

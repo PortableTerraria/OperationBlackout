@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models/stalker_alyx/stalker_sheet"
+    "$bumpmap" "models/stalker_alyx/stalker_sheet_normal"
+    "$phongexponenttexture" "models/stalker_alyx/stalker_sheet_phong"
+
+    "$surfaceprop" "flesh"
+
+    "$alphatest" "1"
+    "$phong" "1"
+    "$phongexponent" "50"
+    "$phongboost" "0.1"
+    "$phongfresnelranges" "[.5 .8 1]"
+    "$phongtint" "[0.9 0.7 0.7]"
+
+    "$rimlight" "1"
+    "$rimlightexponent" "10"
+    "$rimlightboost" "0.1"
+    "$nocull" "1"
+
+    "$detail" "detail/noise_detail_01"
+    "$detailscale" "8"
+    "$detailblendfactor" "1"
+    "$detailblendmode" "0"
+}
