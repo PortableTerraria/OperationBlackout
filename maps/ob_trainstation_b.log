@@ -9609,3 +9609,631 @@ Level flags = 0
 Total triangle count: 8877
 Writing e:\steam\steamapps\common\garrysmod\sdk_content\maps\operation blackout\ob_trainstation_b.bsp
 4 seconds elapsed
+
+==================================================================
+Date: 2026-11-05 17:13:53
+E:\Steam\steamapps\common\GarrysMod\bin\win64\vbspplusplus.exe -leaktest -allowdynamicpropsasstatic -game E:\Steam\steamapps\common\GarrysMod\garrysmod E:\Steam\steamapps\common\GarrysMod\garrysmod\addons\OperationBlackout\maps\ob_trainstation_b.vmf
+==================================================================
+12 threads
+---------------
+gamedir: E:\Steam\steamapps\common\GarrysMod\garrysmod\
+---------------
+Loading E:\Steam\steamapps\common\GarrysMod\garrysmod\addons\OperationBlackout\maps\ob_trainstation_b.vmf
+Locating GameData file 'garrysmod.fgd'...
+Parsing GameData file e:\steam\steamapps\common\garrysmod\bin\garrysmod.fgd
+Parsing GameData file e:\steam\steamapps\common\garrysmod\bin\base.fgd
+Parsing GameData file e:\steam\steamapps\common\garrysmod\bin\halflife2.fgd
+Parsing GameData file e:\steam\steamapps\common\garrysmod\bin\base.fgd
+fixing up env_cubemap materials on brush sides...
+FloodEntities...
+FloodEntities...
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 536 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\Steam\steamapps\common\GarrysMod\garrysmod\addons\OperationBlackout\maps\ob_trainstation_b.prt...
+Building visibility clusters...
+done (0)
+Generating blank default cubemaps...
+Generating blank default cubemaps...
+Emitted 564 brushes and 4984 brushsides
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (217784 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1690 texinfos to 1147
+Reduced 121 texdatas to 107 (3080 bytes to 2419)
+Writing E:\Steam\steamapps\common\GarrysMod\garrysmod\addons\OperationBlackout\maps\ob_trainstation_b.bsp
+4 seconds elapsed
+[INFO] postcompiler.main(): HammerAddons postcompiler, srctools=v2.6.0, addons=v2.6.0
+[INFO] postcompiler.main(): Map path is E:\Steam\steamapps\common\GarrysMod\garrysmod\addons\OperationBlackout\maps\ob_trainstation_b.bsp
+[INFO] config.parse(): Config path: "E:\Steam\steamapps\common\GarrysMod\srctools.vdf"
+[INFO] config.parse(): Paths config: E:\Steam\steamapps\common\GarrysMod\srctools_paths.vdf
+[INFO] config.parse(): Game folder: E:\Steam\steamapps\common\GarrysMod\garrysmod
+[DEBUG] config.parse(): - Source(id='builtin', folder=WindowsPath('E:/Steam/steamapps/common/GarrysMod/bin/win64/postcompiler/win64/postcompiler/transforms'), recursive=True, files=set())
+[INFO] postcompiler.main(): Loading plugins...
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\areaportals.py" as "hammeraddons.plugins.builtin.areaportals"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\branchlistener_uniquestate.py" as "hammeraddons.plugins.builtin.branchlistener_uniquestate"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\comp_adv_output.py" as "hammeraddons.plugins.builtin.comp_adv_output"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\comp_case.py" as "hammeraddons.plugins.builtin.comp_case"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\comp_cubemap_parallax.py" as "hammeraddons.plugins.builtin.comp_cubemap_parallax"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\comp_entity_finder.py" as "hammeraddons.plugins.builtin.comp_entity_finder"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\comp_entity_mover.py" as "hammeraddons.plugins.builtin.comp_entity_mover"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\comp_flicker.py" as "hammeraddons.plugins.builtin.comp_flicker"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\comp_kv_setter.py" as "hammeraddons.plugins.builtin.comp_kv_setter"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\comp_numeric_transition.py" as "hammeraddons.plugins.builtin.comp_numeric_transition"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\comp_relay.py" as "hammeraddons.plugins.builtin.comp_relay"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\comp_scriptvar_setter.py" as "hammeraddons.plugins.builtin.comp_scriptvar_setter"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\comp_sequential_call.py" as "hammeraddons.plugins.builtin.comp_sequential_call"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\fgd_tweaks\__init__.py" as "hammeraddons.plugins.builtin.fgd_tweaks"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\geocable.py" as "hammeraddons.plugins.builtin.geocable"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\lints\__init__.py" as "hammeraddons.plugins.builtin.lints"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\p2_antline.py" as "hammeraddons.plugins.builtin.p2_antline"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\p2_brush_ents.py" as "hammeraddons.plugins.builtin.p2_brush_ents"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\p2_custom_models.py" as "hammeraddons.plugins.builtin.p2_custom_models"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\p2_forgiving_laserfields.py" as "hammeraddons.plugins.builtin.p2_forgiving_laserfields"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\p2_piston_platform.py" as "hammeraddons.plugins.builtin.p2_piston_platform"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\portal2.py" as "hammeraddons.plugins.builtin.portal2"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\sceneset.py" as "hammeraddons.plugins.builtin.sceneset"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\tf2.py" as "hammeraddons.plugins.builtin.tf2"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\vactubes\__init__.py" as "hammeraddons.plugins.builtin.vactubes"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\fgd_tweaks\ambient_generic.py" as "hammeraddons.plugins.builtin.fgd_tweaks.ambient_generic"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\fgd_tweaks\case_sensitive.py" as "hammeraddons.plugins.builtin.fgd_tweaks.case_sensitive"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\fgd_tweaks\damage_type.py" as "hammeraddons.plugins.builtin.fgd_tweaks.damage_type"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\fgd_tweaks\func_physbox.py" as "hammeraddons.plugins.builtin.fgd_tweaks.func_physbox"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\fgd_tweaks\inv_booleans.py" as "hammeraddons.plugins.builtin.fgd_tweaks.inv_booleans"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\fgd_tweaks\mat_modify_control.py" as "hammeraddons.plugins.builtin.fgd_tweaks.mat_modify_control"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\fgd_tweaks\multiline_text.py" as "hammeraddons.plugins.builtin.fgd_tweaks.multiline_text"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\fgd_tweaks\trigger_brush.py" as "hammeraddons.plugins.builtin.fgd_tweaks.trigger_brush"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\lints\client_target.py" as "hammeraddons.plugins.builtin.lints.client_target"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\lints\coalesce_alt_classnames.py" as "hammeraddons.plugins.builtin.lints.coalesce_alt_classnames"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\lints\inf_recursion.py" as "hammeraddons.plugins.builtin.lints.inf_recursion"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\vactubes\animations.py" as "hammeraddons.plugins.builtin.vactubes.animations"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\vactubes\nodes.py" as "hammeraddons.plugins.builtin.vactubes.nodes"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\vactubes\objects.py" as "hammeraddons.plugins.builtin.vactubes.objects"
+[INFO] plugin.load_all(): Loading "E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\transforms\vactubes\sensors.py" as "hammeraddons.plugins.builtin.vactubes.sensors"
+[INFO] postcompiler.main(): Gameinfo: E:\Steam\steamapps\common\GarrysMod\garrysmod
+[INFO] postcompiler.main(): Search paths: 
+ | E:\Steam\steamapps\common\GarrysMod\garrysmod\garrysmod_dir.vpk
+ | E:\Steam\steamapps\common\GarrysMod\sourceengine\hl2_textures_dir.vpk
+ | E:\Steam\steamapps\common\GarrysMod\sourceengine\hl2_sound_vo_english_dir.vpk
+ | E:\Steam\steamapps\common\GarrysMod\sourceengine\hl2_sound_misc_dir.vpk
+ | E:\Steam\steamapps\common\GarrysMod\sourceengine\hl2_misc_dir.vpk
+ | E:\Steam\steamapps\common\GarrysMod\platform\platform_misc_dir.vpk
+ | E:\Steam\steamapps\common\GarrysMod\garrysmod\addons\CSS_Game_Content
+ | E:\Steam\steamapps\common\GarrysMod\garrysmod\addons\EFGMRewrite
+ | E:\Steam\steamapps\common\GarrysMod\garrysmod\addons\InventoryTest
+ | E:\Steam\steamapps\common\GarrysMod\garrysmod\addons\OperationBlackout
+ | E:\Steam\steamapps\common\GarrysMod\garrysmod
+ | E:\Steam\steamapps\common\GarrysMod\garrysmod
+ | E:\Steam\steamapps\common\GarrysMod\sourceengine
+ | E:\Steam\steamapps\common\GarrysMod\platform
+ | E:\Steam\steamapps\common\GarrysMod\garrysmod\download
+ | E:\Steam\steamapps\common\GarrysMod\platform
+ |___
+
+[INFO] postcompiler.main(): Loading soundscripts...
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/lua.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/phx.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/hl2_game_sounds.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/hl2_game_sounds_ambient_generic.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/hl2_game_sounds_items.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/hl2_game_sounds_physics.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/hl2_game_sounds_player.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/hl2_game_sounds_ui.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/hl2_game_sounds_vehicles.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/hl2_game_sounds_weapons.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/hl2_game_sounds_world.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_sounds_breencast.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_sounds_canals.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_sounds_canals2.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_sounds_citadel.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_sounds_coast.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_sounds_eli_lab.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_sounds_k_lab.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_sounds_k_lab2.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_sounds_music.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_sounds_novaprospekt.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_sounds_ravenholm.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_sounds_ravenholm2.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_sounds_streetwar.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_sounds_streetwar2.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_sounds_trainyard.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_alyx.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_antlion.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_antlionguard.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_attackheli.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_barnacle.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_barney.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_birds.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_blackheadcrab.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_citizen.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_combinecamera.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_combine_ball.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_combine_mine.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_dog.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_dropship.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_eli.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_env_headcrabcanister.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_fastheadcrab.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_fastzombie.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_gman.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_gunship.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_headcrab.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_ichthyosaur.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_manhack.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_metropolice.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_poisonzombie.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_rollermine.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_scanner.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_sniper.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_soldier.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_strider.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_turret.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_vortigaunt.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_zombie.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/game_sounds_weapons_episodic.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_alyx_episodic.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_ministrider_episodic.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_stalker.txt from cache
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_advisor.txt" does not exist!
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_antlionguard_episodic.txt from cache
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_citizen_ep1.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_citizen_episodic.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_combine_ball_episodic.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_dog_episodic.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_roller_episodic.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_soldier_episodic.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_strider_episodic.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_turret_episodic.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_zombine.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/level_voices_episode_01.txt" does not exist!
+[DEBUG] packlist.add_cached_file(): Loading scripts/level_sounds_e3_c17.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/level_sounds_e3_town.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/level_sounds_e3_bugbait.txt from cache
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/level_sounds_music_episodic.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/level_sounds_aftermath_episodic.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/level_sounds_c17_02a.txt" does not exist!
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/game_sounds_addendum_ep2.txt from cache
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/sounds/game_sounds_ambient_generic_ep2.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_physics_ep2.txt" does not exist!
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/game_sounds_vehicles_ep2.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/game_sounds_weapons_ep2.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_sounds_music_episodic2.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_sounds_outland_episodic.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_voices_episode_02.txt from cache
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_advisor_episodic2.txt" does not exist!
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_alyx_episodic2.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_antlion_episodic.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_antlion_grub_episodic.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_antlionguard_episodic2.txt from cache
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_attackheli_episodic2.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_citizen_episodic2.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_combine_cannon.txt" does not exist!
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_fastzombie_episodic2.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_hunter.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_strider_episodic2.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/npc_sounds_turret_episodic2.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_sounds_lostcoast.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/level_voices_lostcoast.txt from cache
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_portal.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_player_portal.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_weapons_portal.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/level_sounds_music_portal.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/level_sounds_escape.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_aperture_ai.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_energy_ball.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_turret_portal.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_rocket_turret.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_glados_cores.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_props_aperture.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_auto_generated.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_turret_auto_generated.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_cave_auto_generated.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_sphere03_auto_generated.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_announcer_auto_generated.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_cores_auto_generated.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_paint_player.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_paint.txt" does not exist!
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/cs_game_sounds_radio.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/cs_game_sounds_weapons.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/cs_game_sounds_world.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/dod_game_sounds_weapons.txt from cache
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_ger_commands.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_us_commands.txt" does not exist!
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/tf2_game_sounds_weapons.txt from cache
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_mvm.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_vo_mvm_handmade.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_vo_rd_robots.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_vo_taunts.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_taunt_workshop.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_vo_pauling.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_passtime.txt" does not exist!
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/hl1_game_sounds.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/hl1_game_sounds_music.txt from cache
+[DEBUG] packlist.add_cached_file(): Loading scripts/sounds/l4d_game_sounds_weapons.txt from cache
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/soundscapes_stanley.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/npc_sounds_narration.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_bm_ambience.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_bm_objects.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_bm_scripted.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_scenes.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_scenes_am.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_scenes_app.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_scenes_bp.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_scenes_endgame.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_scenes_faf.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_scenes_gonarch.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_scenes_ib.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_scenes_interloper.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_scenes_lc.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_scenes_oar.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_scenes_oc.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_scenes_pu.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_scenes_qe.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_scenes_st.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_scenes_uc.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_scenes_wgh.txt" does not exist!
+[WARNING] packlist.load_soundscript_manifest(): Soundscript "scripts/game_sounds_vo.txt" does not exist!
+[DEBUG] packlist.add_cached_file(): Loading scripts/game_sounds_player.txt from cache
+[INFO] postcompiler.main(): Done! (13548 sounds)
+[INFO] postcompiler.main(): Loading particles...
+[DEBUG] packlist.add_cached_file(): Loading particles/error.pcf from cache
+[DEBUG] packlist.add_cached_file(): Loading particles/antlion_blood.pcf from cache
+[DEBUG] packlist.add_cached_file(): Loading particles/blood_impact.pcf from cache
+[DEBUG] packlist.add_cached_file(): Loading particles/water_impact.pcf from cache
+[DEBUG] packlist.add_cached_file(): Loading particles/fire_01.pcf from cache
+[DEBUG] packlist.add_cached_file(): Loading particles/burning_fx.pcf from cache
+[DEBUG] packlist.add_cached_file(): Loading particles/combineball.pcf from cache
+[DEBUG] packlist.add_cached_file(): Loading particles/vortigaunt_fx.pcf from cache
+[DEBUG] packlist.add_cached_file(): Loading particles/rocket_fx.pcf from cache
+[DEBUG] packlist.add_cached_file(): Loading particles/achievement.pcf from cache
+[DEBUG] packlist.add_cached_file(): Loading particles/fire_medium_01.pcf from cache
+[DEBUG] packlist.add_cached_file(): Loading particles/muzzleflashes.pcf from cache
+[DEBUG] packlist.add_cached_file(): Loading particles/gmod_effects.pcf from cache
+[DEBUG] packlist.add_cached_file(): Loading particles/precipitation.pcf from cache
+[DEBUG] packlist.add_cached_file(): Loading particles/train_steam.pcf from cache
+[DEBUG] packlist.add_cached_file(): Loading particles/efgm/test_particle.pcf from cache
+[INFO] postcompiler.main(): Done! (276 particles)
+[INFO] postcompiler.main(): Loading choreo scenes...
+[INFO] postcompiler.main(): Done! (4849 scenes)
+[INFO] postcompiler.main(): Reading BSP...
+[INFO] postcompiler.main(): Mounting BSP packfile...
+[DEBUG] bsp.__get__(): Load game lump BSP_LUMPS.PAKFILE (119814 bytes)
+[DEBUG] bsp.__get__(): Load game lump BSP_LUMPS.ENTITIES (67545 bytes)
+[INFO] postcompiler.main(): Running transforms...
+[INFO] bsp_trans.run_transformations(): Running "func_instance_io_proxy"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('func_instance_io_proxy', [])
+[INFO] bsp_trans.run_transformations(): Running "Model Ropes"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('Model Ropes', [])
+[INFO] bsp_trans.run_transformations(): Running "FGD - Invertable Booleans"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('FGD - Invertable Booleans', [])
+[INFO] bsp_trans.run_transformations(): Running "Attachment Points"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('Attachment Points', [])
+[INFO] bsp_trans.run_transformations(): Running "VScript Init Code"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('VScript Init Code', [])
+[INFO] bsp_trans.run_transformations(): Running "Optimise Areaportals"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('Optimise Areaportals', [])
+[INFO] bsp_trans.run_transformations(): Running "Branch Listener UniqueState"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('Branch Listener UniqueState', [])
+[INFO] bsp_trans.run_transformations(): Running "comp_adv_output"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('comp_adv_output', [])
+[INFO] bsp_trans.run_transformations(): Running "comp_cubemap_parallax"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('comp_cubemap_parallax', [])
+[INFO] bsp_trans.run_transformations(): Running "comp_entity_finder"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('comp_entity_finder', [])
+[INFO] bsp_trans.run_transformations(): Running "comp_entity_mover"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('comp_entity_mover', [])
+[INFO] bsp_trans.run_transformations(): Running "comp_flicker"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('comp_flicker', [])
+[INFO] bsp_trans.run_transformations(): Running "comp_kv_setter"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('comp_kv_setter', [])
+[INFO] bsp_trans.run_transformations(): Running "comp_numeric_transition"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('comp_numeric_transition', [])
+[INFO] bsp_trans.run_transformations(): Running "comp_scriptvar_setter"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('comp_scriptvar_setter', [])
+[INFO] bsp_trans.run_transformations(): Running "comp_sequential_call"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('comp_sequential_call', [])
+[INFO] bsp_trans.run_transformations(): Running "Portal 2 Vactubes"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('Portal 2 Vactubes', [])
+[INFO] bsp_trans.run_transformations(): Running "P2 Antlines"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('P2 Antlines', [])
+[INFO] bsp_trans.run_transformations(): Running "P2 Coop Trigger"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('P2 Coop Trigger', [])
+[INFO] bsp_trans.run_transformations(): Running "P2 Goo"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('P2 Goo', [])
+[INFO] bsp_trans.run_transformations(): Running "Portal 2 Custom Models"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('Portal 2 Custom Models', [])
+[INFO] bsp_trans.run_transformations(): Running "Portal Piston Platforms"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('Portal Piston Platforms', [])
+[INFO] bsp_trans.run_transformations(): Running "Fix Laser Catcher Skins"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('Fix Laser Catcher Skins', [])
+[INFO] bsp_trans.run_transformations(): Running "Force Paint in Map"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('Force Paint in Map', [])
+[INFO] bsp_trans.run_transformations(): Running "Precache P2 Light Bridge"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('Precache P2 Light Bridge', [])
+[INFO] bsp_trans.run_transformations(): Running "Fix Button Collision"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('Fix Button Collision', [])
+[INFO] bsp_trans.run_transformations(): Running "comp_choreo_sceneset"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('comp_choreo_sceneset', [])
+[INFO] bsp_trans.run_transformations(): Running "TF2 Control Point Props"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('TF2 Control Point Props', [])
+[INFO] bsp_trans.run_transformations(): Running "FGD - ambient_generic keyvalues"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('FGD - ambient_generic keyvalues', [])
+[INFO] bsp_trans.run_transformations(): Running "FGD - Fix key casing"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('FGD - Fix key casing', [])
+[WARNING] case_sensitive.fix_casing(): Correcting case of "SunSpreadAngle" for light_environment @ (12412.7 -1868.08 -441.37)
+[INFO] bsp_trans.run_transformations(): Running "FGD - damage types"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('FGD - damage types', [])
+[INFO] bsp_trans.run_transformations(): Running "FGD - func_physbox mass override"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('FGD - func_physbox mass override', [])
+[INFO] bsp_trans.run_transformations(): Running "FGD - material_modify_control"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('FGD - material_modify_control', [])
+[INFO] bsp_trans.run_transformations(): Running "Multiline game_text"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('Multiline game_text', [])
+[INFO] bsp_trans.run_transformations(): Running "FGD - trigger_brush"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('FGD - trigger_brush', [])
+[INFO] bsp_trans.run_transformations(): Running "Enable info_target clientside"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('Enable info_target clientside', [])
+[INFO] bsp_trans.run_transformations(): Running "Fix alternate classnames"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('Fix alternate classnames', [])
+[INFO] bsp_trans.run_transformations(): Running "Entity parent loop check"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('Entity parent loop check', [])
+[INFO] bsp_trans.run_transformations(): Running "Filter cycle check"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('Filter cycle check', [])
+[INFO] bsp_trans.run_transformations(): Running "comp_case"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('comp_case', [])
+[INFO] bsp_trans.run_transformations(): Running "comp_relay"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('comp_relay', [])
+[INFO] bsp_trans.run_transformations(): Running "P2 Forgiving Laserfields"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('P2 Forgiving Laserfields', [])
+[INFO] bsp_trans.run_transformations(): Running "Optimise logic_auto"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('Optimise logic_auto', [])
+[INFO] bsp_trans.run_transformations(): Running "Strip Entities"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('Strip Entities', [])
+[INFO] bsp_trans.run_transformations(): Running "comp_precache_model"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('comp_precache_model', [])
+[INFO] bsp_trans.run_transformations(): Running "comp_precache_sound"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('comp_precache_sound', [])
+[INFO] bsp_trans.run_transformations(): Running "comp_pack_replace_soundscript"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('comp_pack_replace_soundscript', [])
+[INFO] bsp_trans.run_transformations(): Running "comp_pack"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('comp_pack', [])
+[INFO] bsp_trans.run_transformations(): Running "comp_pack_rename"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('comp_pack_rename', [])
+[INFO] bsp_trans.run_transformations(): Running "VScript RunScript Inputs"...
+[DEBUG] bsp_trans.run_transformations(): Config: Keyvalues('VScript RunScript Inputs', [])
+[INFO] postcompiler.main(): Combining props...
+[DEBUG] propcombine.combine(): Propcombine: decomp cache=E:\Steam\steamapps\common\GarrysMod\garrysmod\decomp_cache, crowbar=E:\Steam\steamapps\common\GarrysMod\bin\win64\postcompiler\win64\postcompiler\binaries\Crowbar.exe, studiomdl=E:\Steam\steamapps\common\GarrysMod\bin\studiomdl.exe
+[INFO] propcombine.combine(): Parsing QC files. Paths: 
+ | E:\Steam\steamapps\common\GarrysMod\content
+ |___
+
+[INFO] propcombine.combine(): Done! 0 prop QCs found.
+[DEBUG] bsp.__get__(): Load game lump b'sprp' v10 (25740 bytes)
+[DEBUG] bsp.__get__(): Load game lump BSP_LUMPS.LEAFS (102752 bytes)
+[DEBUG] bsp.__get__(): Load game lump BSP_LUMPS.BRUSHES (6768 bytes)
+[DEBUG] bsp.__get__(): Load game lump BSP_LUMPS.PLANES (87360 bytes)
+[DEBUG] bsp.__get__(): Load game lump BSP_LUMPS.TEXINFO (82584 bytes)
+[DEBUG] bsp.__get__(): Load game lump BSP_LUMPS.TEXDATA_STRING_DATA (2419 bytes)
+[DEBUG] bsp.__get__(): Load game lump BSP_LUMPS.FACES (316456 bytes)
+[DEBUG] bsp.__get__(): Load game lump BSP_LUMPS.ORIGINALFACES (115864 bytes)
+[DEBUG] bsp.__get__(): Load game lump BSP_LUMPS.PRIMITIVES (5410 bytes)
+[DEBUG] bsp.__get__(): Load game lump BSP_LUMPS.SURFEDGES (140296 bytes)
+[DEBUG] bsp.__get__(): Load game lump BSP_LUMPS.VERTEXES (98280 bytes)
+[DEBUG] propcombine.load_model(): Model models/props_radiostation/radio_antenna01_pylon.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_forest/light_security.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/cliffs/rocks_medium02_veg.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_foliage/tree_stump01.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_foliage/fallentree01.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_foliage/tree_dry01.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_foliage/tree_dead02.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/cliffs/rocks_medium01_veg.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/cliffs/rocks_large03_veg.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_radiostation/radio_antenna01.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/cliffs/rocks_xlarge03_veg.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/cliffs/rocks_xlarge01_veg.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_forest/fence_border_128.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_forest/fence_border_256.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_forest/fence_border_512.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_foliage/rock_coast02h.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_foliage/rock_coast02g.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_foliage/rock_coast02a.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_foliage/tree_pine06.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_foliage/tree_pine04.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/cliffs/rocks_medium01.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_forest/fence_trail_256.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_forest/sawmill_logs.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_foliage/tree_pine05.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_trainstation/train_boxcar_damaged.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_trainstation/train_boxcar.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_trainstation/train_orecar.mdl was not found in the filesystem.
+[DEBUG] propcombine.load_model(): Model models/props_trainstation/train_engine.mdl was not found in the filesystem.
+[INFO] propcombine.combine(): No propcombine groups or range provided.
+[INFO] postcompiler.main(): Done!
+[WARNING] postcompiler.main(): --nopack passed, packing has been disabled!
+[DEBUG] postcompiler.main(): Packing allowlist=[], blocklist=[]
+[DEBUG] packlist.pack_into_zip(): Allowed filesystems:
+ | - VPKFileSystem('E:\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk')
+ | - VPKFileSystem('E:\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_dir.vpk')
+ | - VPKFileSystem('E:\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_sound_vo_english_dir.vpk')
+ | - VPKFileSystem('E:\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_sound_misc_dir.vpk')
+ | - VPKFileSystem('E:\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk')
+ | - VPKFileSystem('E:\\Steam\\steamapps\\common\\GarrysMod\\platform\\platform_misc_dir.vpk')
+ | + RawFileSystem('E:\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\CSS_Game_Content', constrain_path=True)
+ | + RawFileSystem('E:\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\EFGMRewrite', constrain_path=True)
+ | + RawFileSystem('E:\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\InventoryTest', constrain_path=True)
+ | + RawFileSystem('E:\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\addons\\OperationBlackout', constrain_path=True)
+ | + RawFileSystem('E:\\Steam\\steamapps\\common\\GarrysMod\\garrysmod', constrain_path=True)
+ | + RawFileSystem('E:\\Steam\\steamapps\\common\\GarrysMod\\garrysmod', constrain_path=True)
+ | + RawFileSystem('E:\\Steam\\steamapps\\common\\GarrysMod\\sourceengine', constrain_path=True)
+ | + RawFileSystem('E:\\Steam\\steamapps\\common\\GarrysMod\\platform', constrain_path=True)
+ | + RawFileSystem('E:\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\download', constrain_path=True)
+ | + RawFileSystem('E:\\Steam\\steamapps\\common\\GarrysMod\\platform', constrain_path=True)
+ | + ZipFileSystem('<BSP pakfile>')
+ |___
+
+[INFO] packlist.pack_into_zip(): Compressing packfile...
+[INFO] postcompiler.main(): Packed files: 
+ | materials\maps\ob_trainstation_b\c0_0_0.(hdr.vtf/vtf)
+ | materials\maps\ob_trainstation_b\concrete\concretefloor028a_0_0_0.vmt
+ | materials\maps\ob_trainstation_b\cubemapdefault.(hdr.vtf/vtf)
+ | materials\maps\ob_trainstation_b\metal\metalcombine001_0_0_0.vmt
+ | materials\maps\ob_trainstation_b\metal\metaldoor059a_0_0_0.vmt
+ | materials\maps\ob_trainstation_b\metal\metalroof008a_0_0_0.vmt
+ | materials\maps\ob_trainstation_b\nature\blenddirtgravel01_wvt_patch.vmt
+ | materials\maps\ob_trainstation_b\nature\blendgrassdirt01_wvt_patch.vmt
+ | materials\maps\ob_trainstation_b\plaster\plasterwall013g_0_0_0.vmt
+ | materials\maps\ob_trainstation_b\plaster\plasterwall029c_0_0_0.vmt
+ | materials\maps\ob_trainstation_b\plaster\plasterwall029g_0_0_0.vmt
+ | materials\maps\ob_trainstation_b\plaster\plasterwall036d_0_0_0.vmt
+ | materials\maps\ob_trainstation_b\tile\tileroof002a_0_0_0.vmt
+ | materials\maps\ob_trainstation_b\wood\woodfloor008a_0_0_0.vmt
+ |___
+
+[INFO] postcompiler.main(): Writing BSP...
+[INFO] postcompiler.main(): Packfile size: 116.975kB
+[INFO] postcompiler.main(): FGD database usage: [Database 0]: blocks: 47/211 = 22.27%, entities: 497/1640 = 30.30%
+ | 
+ |___
+
+[INFO] postcompiler.main(): HammerAddons postcompiler complete!
+
+==================================================================
+Date: 2026-11-05 17:14:02
+E:\Steam\steamapps\common\GarrysMod\bin\win64\vvisplusplus.exe -low -game E:\Steam\steamapps\common\GarrysMod\garrysmod E:\Steam\steamapps\common\GarrysMod\garrysmod\addons\OperationBlackout\maps\ob_trainstation_b.vmf
+==================================================================
+12 threads
+reading e:\steam\steamapps\common\garrysmod\garrysmod\addons\operationblackout\maps\ob_trainstation_b.bsp
+reading e:\steam\steamapps\common\garrysmod\garrysmod\addons\operationblackout\maps\ob_trainstation_b.prt
+1027 portalclusters
+2192 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 876 visible clusters (0.23%)
+Total clusters visible: 387241
+Average clusters visible: 377
+Building PAS...
+Average clusters audible: 893
+visdatasize:210400  compressed from 279344
+writing e:\steam\steamapps\common\garrysmod\garrysmod\addons\operationblackout\maps\ob_trainstation_b.bsp
+1 second elapsed
+
+==================================================================
+Date: 2026-11-05 17:14:04
+E:\Steam\steamapps\common\GarrysMod\bin\win64\vradplusplus.exe -final -StaticPropLighting -StaticPropPolys -both -low -TextureShadows -propambient -worldtextureshadows -translucentshadows -forcetextureshadows -extrasky 32 -ambientocclusion -patchlightmapsize 4 -StaticPropSampleScale 8 -game E:\Steam\steamapps\common\GarrysMod\garrysmod E:\Steam\steamapps\common\GarrysMod\garrysmod\addons\OperationBlackout\maps\ob_trainstation_b.vmf
+==================================================================
+---------------
+gamedir: E:\Steam\steamapps\common\GarrysMod\garrysmod\
+---------------
+12 threads
+Compiling in HDR mode
+Reading texlights from 'lights.rad'...
+51 texlights parsed
+Loading e:\steam\steamapps\common\garrysmod\garrysmod\addons\operationblackout\maps\ob_trainstation_b.bsp
+Loaded alpha texture 'models\props_trainstation\Traintrack001a'
+Loaded alpha texture 'models\props_foliage\arbre01'
+Loaded alpha texture 'models/props_wasteland/powertower01'
+Loaded alpha texture 'models/props_foliage/ah_foliage_sheet001'
+Loaded alpha texture 'models\props_vehicles/flatnose_truck_glass'
+Loaded alpha texture 'Models/props_forest/fence_chicken_alpha'
+Loaded alpha texture 'models\cliffs\rocks_vegetation'
+Loaded alpha texture 'Models/props_radiostation/radio_antenna01_alpha'
+Loaded alpha texture 'models\props_foliage\arbre01'
+Loaded alpha texture 'models\props_foliage\ArbreFallen01'
+Failed to find material on disk: materials\models\props_fortifications\sandbags_snow.vmt
+Loaded alpha texture 'Models/props_c17/fence_alpha'
+Loaded alpha texture 'Metal/metalladder001a'
+Loaded alpha texture 'Metal/metaltruss022b'
+Loaded alpha texture 'Metal/metalrail013c'
+225 props added to raytrace
+5651 faces
+7 degenerate faces
+192 fake patch planes
+15268169 square feet [2198616320.00 square inches]
+140 Displacements
+787164 Square Feet [113351752.00 Square Inches]
+5644 patches before subdivision
+231022 patches after subdivision
+CreateDirectLights...
+62 lights (0.00 seconds)
+5319/5651 faces visible to lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 17320450, max 849
+transfer lists: 132.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(190542, 169884, 108556)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(21152, 14723, 6859)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3293, 1780, 641)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(677, 309, 88)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(153, 62, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(37, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0620 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Setting up leaf ambient computation...
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+225 props added to collision raytrace
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Fullness 
+------------       ---------------  -------- 
+entities               235/65536    ( 0.4%) 
+models                  11/4096     ( 0.3%) 
+brushes                564/65535    ( 0.9%) 
+brushsides            4984/655350   ( 0.8%) 
+planes                4368/65536    ( 6.7%) 
+vertexes              8190/65536    (12.5%) 
+nodes                 3199/65536    ( 4.9%) 
+texinfos              1147/655350   ( 0.2%) 
+texdata                107/8192     ( 1.3%) 
+dispinfos              140/16384    ( 0.9%) 
+faces                 5651/65536    ( 8.6%) 
+hdr faces             5651/65536    ( 8.6%) 
+origfaces             2069/65536    ( 3.2%) 
+leaves                3211/65536    ( 4.9%) 
+leaffaces             6621/65536    (10.1%) 
+leafbrushes           2780/65536    ( 4.2%) 
+areas                    2/1024     ( 0.2%) 
+surfedges            35074/512000   ( 6.9%) 
+edges                20878/256000   ( 8.2%) 
+leafwaterdata            0/32768    ( 0.0%) 
+waterstrips            541/32768    ( 1.7%) 
+waterverts               0/65536    ( 0.0%) 
+waterindices         11784/65536    (18.0%) 
+cubemapsamples           0/1024     ( 0.0%) 
+overlays                22/8192     ( 0.3%) 
+visdata             210400/16777216 ( 1.3%) 
+entdata              67581/393216   (17.2%) 
+LDR ambient table     3211/65536    ( 4.9%) 
+HDR ambient table     3211/65536    ( 4.9%) 
+LDR worldlights            0       
+HDR worldlights            62      
+LDR lightdata              0       
+HDR lightdata              11382516
+LDR leaf ambient           3211    
+HDR leaf ambient           4121    
+occluders                  0       
+occluder polygons          0       
+occluder vert ind          0       
+detail props               1260728 
+dtl prp lght               4       
+HDR dtl prp lght           4       
+static props               25740   
+pakfile                    3519792 
+physics                    217784  
+physics terrain            49254   
+
+Level flags = 1
+
+Total triangle count: 15537
+Writing e:\steam\steamapps\common\garrysmod\garrysmod\addons\operationblackout\maps\ob_trainstation_b.bsp
+4 minutes, 30 seconds elapsed
